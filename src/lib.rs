@@ -37,3 +37,4 @@ impl Trait for B {
 
 pub mod solution_a;
 pub mod solution_b;
+pub mod solution_c;
