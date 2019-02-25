@@ -35,3 +35,4 @@ impl Iface for B {
     }
 }
 
+pub mod solution_a;
