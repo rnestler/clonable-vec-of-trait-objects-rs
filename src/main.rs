@@ -1,6 +1,6 @@
-extern crate reference_wrapper;
+extern crate clonable_vec_of_trait_objects;
 
-use reference_wrapper::*;
+use clonable_vec_of_trait_objects::*;
 
 fn main() {
     // Problem: Vec of Trait is not copyable
