@@ -6,7 +6,7 @@ pub enum Enum {
     B(B),
 }
 
-impl Iface for Enum {
+impl Trait for Enum {
     fn print(&self) {
         match self {
             Enum::A(a) => a.print(),

@@ -1,4 +1,4 @@
-pub trait Iface {
+pub trait Trait {
     fn print(&self);
 }
 
@@ -13,7 +13,7 @@ impl A {
 }
 
 
-impl Iface for A {
+impl Trait for A {
     fn print(&self) {
         println!("A ");
     }
@@ -29,7 +29,7 @@ impl B {
     }
 }
 
-impl Iface for B {
+impl Trait for B {
     fn print(&self) {
         println!("B ");
     }

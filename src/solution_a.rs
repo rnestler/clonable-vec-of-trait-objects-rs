@@ -1,4 +1,4 @@
 use crate::*;
 
-pub trait CloneAbleIFace: Iface + Clone {
+pub trait CloneAbleTrait: Trait + Clone {
 }
